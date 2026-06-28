@@ -30,7 +30,7 @@ def main():
     Shot.containers = (updatable, drawable, shots)
 
     player = Player(x, y)
-    asteroid_field = AsteroidField()
+    AsteroidField()
 
     # Game loop
     while True:
